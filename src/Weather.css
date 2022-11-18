@@ -7,9 +7,10 @@
 }
 
 .Weather h1 {
-    color: #878787;
-    margin-bottom: 0;
     font-size: 24px;
+    font-weight: 300;
+    margin: 20px 0 0;
+    line-height: 29px;
 }
 
 .Weather ul {
@@ -26,9 +27,8 @@
 }
 
 .Weather .current-weather-icon {
-    display: block;
-    position: relative;
-    padding-top: -50px;
+    margin-top: -33px;
+    margin-left: -17px;
 }
 
 .Weather .temperature {
@@ -36,7 +36,6 @@
     font-size: 64px;
     line-height: 64px;
     font-weight: 400;
-    margin-left: 10px;
 }
 
 .Weather .unit {
