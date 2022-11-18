@@ -4,8 +4,12 @@ import "./Weather.css";
 
 export default function Weather() {
     return (
-        <div>
-        <h1>Weather app</h1>
-        <p>This app was coded by Daria Stephenson, it is <a href="/">open-sourced</a> on Github</p></div>
+        <div className="App">
+
+        <h1>London</h1>
+        
+
+        
+        </div>
     )
 }
