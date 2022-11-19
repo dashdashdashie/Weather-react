@@ -13,7 +13,6 @@ export default function WeatherForecast(props) {
     }, [props.coordinates]);
 
     function handleResponse(response) {
-        console.log(response.data);
         setForecast(response.data.daily);
         setLoaded(true);
     }
@@ -28,7 +27,9 @@ export default function WeatherForecast(props) {
                         <div className="col" key={index}>
                         <WeatherForecastDay data={dailyForecast} />
                     </div>
-                    )
+                    );
+                    } else {
+                        return null;
                     }
                     })}
                 </div>
